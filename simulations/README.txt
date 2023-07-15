@@ -19,3 +19,5 @@ parameters: directory contains .Rdata files with parameters for simulations:
 - ngen.intercross and ngen.selfing the number of generation of intercross and selfing to simulate
 - nplates: the number of metapopulations (=petri dishes were the crosses were done)
 - sex.chromosome: which loci are the X chromosome (for sex determination and is treated differently because hemyzygosity)
+
+=> one parameters file per cross subpanels (from A to H; details in Table S2 of the associated article)

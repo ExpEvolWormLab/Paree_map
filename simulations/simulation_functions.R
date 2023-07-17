@@ -1,3 +1,8 @@
+
+### The starting point for writing these simulations was the 
+### code written Arnaud Le Rouzic in the context of the course: 
+### "Quantitative Evolutionary Genetics 2021" ( IMaLiS master’s program of the Ecole Normale Supérieure (ENS))
+
 ###########################################################
 ####### Initialize the simulation #########################
 ###########################################################

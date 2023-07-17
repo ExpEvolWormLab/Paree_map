@@ -1,6 +1,6 @@
 # Paree_map
 
-This repository contains the script corresponding to the article XXXX DOI XXXX.
+This repository contains the scripts and data corresponding to the article XXXX DOI XXXX.
 
 Directories:
 

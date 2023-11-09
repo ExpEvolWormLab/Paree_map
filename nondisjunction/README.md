@@ -1,9 +1,9 @@
-The nondusjunction.txt files contain the data from the assay done to estimate effect of rec-1 on chromosome non-disjunction.
+The nondusjunction.txt file contains the data from the assay done to estimate the effect of rec-1 on chromosome non-disjunction.
   i.e., fertility, egg viability, male proportion in selfed progeny.
 
 See methods of the genetics article for experimental details.
 
-One row correspond to the data concerning self-fertilized progeny of a single hermaphrodite 
+One row corresponds to the data concerning the self-fertilized progeny of a single hermaphrodite. 
 
 Columns:
 -strain: 4 different strains; 2 rec-1 allele and 2 genetic backgrounds.

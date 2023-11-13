@@ -1,6 +1,6 @@
 # Paree_map
 
-This repository contains the scripts and data corresponding to the article XXXX DOI XXXX.
+This repository contains the scripts and data corresponding to the genetics article "rec-1 loss of function increases recombination in the central gene clusters at the expense of autosomal pairing centers" by Paree et al. (https://doi.org/10.1101/2023.07.18.549456).
 
 Directories:
 

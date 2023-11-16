@@ -19,6 +19,6 @@ This directory contains:
 "parent1"
 "parent2"
 
-- trimming is the R code used to trim the adapter sequence containing the barcode in the r2b-Rad aw sequence reads. The 2b-Rad .fq.gz files in NCBI (PRJNA1040005) must be trimmed to keep only the C. elegans DNA fragments.
+- trimming.R is the R script used to trim the adapter sequence containing the barcode in the r2b-Rad aw sequence reads. The 2b-Rad .fq.gz files in NCBI (PRJNA1040005) must be trimmed to keep only the C. elegans DNA fragments.
 
 - barcode directory contains the .txt files used to sort reads by RIAIL using stacks and a .xlsx file containing the sequence of the primers used

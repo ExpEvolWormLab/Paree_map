@@ -1,7 +1,7 @@
 # The rec-1 RIAIL were genotyped by combining a 2b-Rad seq and a Massaray (MALDI-TOF) genotyping (see 
  Genetics article for details: https://doi.org/10.1101/2023.07.18.549456)
 
-The raw 2b-Rad sequence and parental sequences (.fq.gz) can be found on NCBI (PRJNA1037511 and PRJNA1040005, respectively). 
+The raw 2b-Rad sequence and WGS parental sequences (.fq.gz) can be found on NCBI (PRJNA1037511 and PRJNA1040005, respectively). 
 
 This directory contains:
 
@@ -18,5 +18,7 @@ This directory contains:
 "cross": idenfier of the RIAIL subpanel differing from the initial cross (A to H; genetic background, rec-1 allele and direction of the cross vary; see methods) 
 "parent1"
 "parent2"
+
+- trimming is the R code used to trim the adapter sequence containing the barcode in the r2b-Rad aw sequence reads. The 2b-Rad .fq.gz files in NCBI (PRJNA1040005) must be trimmed to keep only the C. elegans DNA fragments.
 
 - barcode directory contains the .txt files used to sort reads by RIAIL using stacks and a .xlsx file containing the sequence of the primers used

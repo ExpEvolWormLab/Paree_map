@@ -27,3 +27,6 @@ The AA allele corresponds to the second parent's genetic background for the give
 
 Non-informative sites (monomorphic between parents of a given cross) are removed (NA value)
 
+# raw
+Contains the raw genotyping data
+

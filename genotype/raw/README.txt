@@ -8,7 +8,7 @@ This directory contains:
 - massaray_rec1riails.csv: the raw diploid genotype data for the Massaray (MALDI-TOF) genotyping (reference = N2 ws245)
 
 - 2b-Rad_rec1riails.csv: The samples' information for the 2b-Rad sequence.
-"RIAIL": the name of the RIAIL = a letter corresponding to the cross and a number. If replicate is in the name, it means that there are thenical replicate on the same lines.
+"RIAIL": the name of the RIAIL = a letter corresponding to the cross and a number. If 'replicate' is in the name, it means that there are technical replicates on the same line.
 "lig.barcode": the barcode introduced during the ligation (see methods)
 "index.barcode": the barcode introduced during the PCR step (see methods)
 "lig": ligation barcode id (1 to 8)
@@ -19,6 +19,6 @@ This directory contains:
 "parent1"
 "parent2"
 
-- trimming.R is the R script used to trim the adapter sequence containing the barcode in the r2b-Rad aw sequence reads. The 2b-Rad .fq.gz files in NCBI (PRJNA1040005) must be trimmed to keep only the C. elegans DNA fragments.
+- trimming.R: R script used to verify the presence of the Bcg1 site in 2b-Rad sequence and trim them to the 36 bp inserted sample DNA fragment. The 2b-Rad .fq.gz files in NCBI (PRJNA1040005) must be trimmed to keep only the C. elegans DNA fragments.
 
 - barcode directory contains the .txt files used to sort reads by RIAIL using stacks and a .xlsx file containing the sequence of the primers used

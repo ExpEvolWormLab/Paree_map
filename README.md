@@ -10,7 +10,7 @@ maps: contains the estimated genetic position from the RIAILs with the R/qtl pac
 
 nondisjunction: contains the data of the assay done of non-disjunction (fertility, male proportion, egg viability).
 
-genotype: contains the genotype of the RIAIL used to estimate the linkage maps. Note that the .fastq files of the parental strains are available on ncbi (PRJNA1037511). 
+genotype: contains the genotype of the RIAIL used to estimate the linkage maps. Note that the .fastq files of the parental strains (PRJNA1037511) and RIAILs (PRJNA1040005) are available on NCBI (https://www.ncbi.nlm.nih.gov/).
 
 files:
 
